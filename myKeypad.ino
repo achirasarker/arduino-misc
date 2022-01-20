@@ -41,12 +41,12 @@ void loop() {
   if(keypressed!=NO_KEY)
   {
     //Print key that's pressed on serial monitor
-//    Serial.println(keypressed); 
+   Serial.println(keypressed); 
   }
 
   int potValue = analogRead(pot); //Store readings
   int mapped = map(potValue, 0, 1023, 0, 180); //Pin name, initial value of pin, max value, min of range, max of range ->max angle)
   Serial.println(mapped); 
   //Change angle of servo using write command, add delays in between 
-//  myServo.write(mapped);
+  myServo.write(mapped);
 }
