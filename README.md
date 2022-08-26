@@ -1,5 +1,5 @@
 # arduino-misc
-A collection of different mini projects built using Arduino. 
+<b> A collection of different mini projects built using Arduino. </b>
 
 myKeypad - Reads values from a keypad using the Keypad.h library, controls a servo motor using a potentiometer. <br> <br>
 waterSensor - Turns a buzzer on/off after reading values from a water sensor. <br> <br>
